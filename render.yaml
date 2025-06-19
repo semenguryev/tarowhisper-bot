@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: tarowhisper-bot
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    runtime: python-3.10
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
