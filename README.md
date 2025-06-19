@@ -1,2 +1,3 @@
-# tarowhisper-bot
-Telegram bot for Tarot spreads
+# TaroWhisperBot
+
+Telegram-бот, который отправляет карту Таро по запросу. MVP-версия.
